@@ -1,0 +1,283 @@
+.background {
+    background-color: #4567b7; /* change this line to your desired color */
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c01717;
+    text-align: center;
+    background-color: #000;
+}
+
+.intro {
+    background: rgba(212, 10, 10, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    width: calc(33.33% - 20px);
+  }
+  
+  .skills-list li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .skills-list li span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  #about{
+    background-color: #4567b7;
+  }
+
+
+  .about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-section {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.about-me-section h3 {
+    margin-top: 0;
+}
+
+.about-me-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-me-section li {
+    margin-bottom: 10px;
+}
+
+.about-me-section li span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.about-me-section li span:first-child {
+    font-weight: bold;
+}
+
+.about-me-section p {
+    margin-bottom: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #0b0a0a;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro button {
+    background-color: #4CAF50;
+    color: #121111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro button:hover {
+    background-color: #3e8e41;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+    animation: fadeIn 2s; /* added animation */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    animation: spin 3s; /* added animation */
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    animation: slideInFromTop 2s; /* added animation */
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    animation: slideInFromBottom 2s; /* added animation */
+}
+
+.intro button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s; /* added animation */
+}
+
+.intro button:hover {
+    background-color: #3e8e41;
+}
+
